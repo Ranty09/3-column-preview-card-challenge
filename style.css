@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&display=swap');
+
+
+body{
+  height: 180vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full-card{
+display: flex;
+flex-direction: column;
+width: 250px;
+
+
+}
+.card1{
+  background-color: hsl(31, 77%, 52%);
+  flex: 1;
+  padding: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+}
+.card1 button{
+  color:hsl(31, 77%, 52%) ;
+  background-color: hsl(0, 0%, 95%) ;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 900;
+}
+.card2{
+  background-color: hsl(184, 100%, 22%) ;
+  flex: 1;
+  padding: 50px;
+}
+.card2 button{
+  color: hsl(184, 100%, 22%);;
+  background-color: hsl(0, 0%, 95%) ;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 900;
+}
+  
+.card3{
+  background-color:  hsl(179, 100%, 13%);
+  flex: 1;
+  padding: 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card3 button{
+  color:  hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%) ;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 900;
+}
+img{
+  height: 30px;
+}
+h2{
+  color:hsl(0, 0%, 95%) ;
+  font-family: 'big shoulders Display';
+  text-transform: uppercase;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family:'Lexend Deca', sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  
+}
+button{
+  padding: 9px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 11px;
+  cursor: pointer; 
+}
+button:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+
+@media screen and ( min-width: 700px){
+body{
+  height: 100vh;
+  }
+
+.full-card{
+display: flex;
+flex-direction: row;
+width: 670px;
+height: 60%;
+}
+.card1{
+  border-top-left-radius: 5px ;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+}
+.card3{
+  border-top-right-radius: 5px ;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+}
+p{
+  font-size: 9px;
+  margin-bottom: 40px;
+}
+
+
+}
+
+
+
