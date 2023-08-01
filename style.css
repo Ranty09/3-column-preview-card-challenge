@@ -6,6 +6,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(0, 0%, 95%);
 }
 .full-card{
 display: flex;
@@ -92,7 +93,7 @@ body{
 display: flex;
 flex-direction: row;
 width: 670px;
-height: 60%;
+height: 70%;
 }
 .card1{
   border-top-left-radius: 5px ;
